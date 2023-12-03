@@ -1,0 +1,29 @@
+.header-button {
+    display: inline-flex;
+    align-items: center;
+    border: 1px;
+    border-color: #BFBFBF;
+    fill: var(--bace-white, #FFFFFF);
+}
+
+
+.hero-button {
+    display: inline-flex;
+    align-items: center;    
+    gap: .625rem;
+    color: var(--base-white, #FFFFFF);
+    font-size: 1.125rem;
+    font-weight: 600;    
+    border-radius: 5px;
+    background: #FF8126;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    color: var(--base-white, #FFFFFF);    
+    font-size: 1.125rem;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #FF8126;
+}
