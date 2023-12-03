@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-weight: 400;
+    font-weight: 1280;
     font-size: inherit;
     line-height: 1.5;
     font-family: var(--primary-font-family);
@@ -31,10 +31,6 @@ body {
     background-color: var(--body-background-color);
     letter-spacing: .02em;
     overflow-x: hidden;
-
-    &.is-blocked {
-        overflow: hidden;
-    }
 
     main {
         flex-grow: 1;
